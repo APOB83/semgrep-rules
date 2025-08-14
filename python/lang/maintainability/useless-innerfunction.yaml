@@ -29,7 +29,7 @@ rules:
     message: function `$FF` is defined inside a function but never used
     languages:
       - python
-    severity: ERROR
+    severity: WARNING
     metadata:
       category: maintainability
       technology:
